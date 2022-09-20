@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onload="loadBg()">
+
+    <!-- <body> -->
+    <div class="imagePopUpWindow">
+        <div>
+            <!-- This div is for pop up image -->
+        </div>
+        <div class="downBtn">
+            <!-- this div is for download button -->
+        </div>
+        <div class="likes">
+            <label class="likeIcon">👌</label>
+            <label class="noOfLikes"></label>
+        </div>
+        <div>
+            <button onclick="closePopUp()" class="close">x</button>
+        </div>
+        <!-- this is for my pop up -->
+    </div>
+
+    <div class="header">
+
+        <bold>
+            <h1 class="title">Wallpapers</h1>
+        </bold>
+
+        <div class="input_class">
+            <input type="text" id="input" placeholder="Search Image">
+
+            <div class="icon">
+                <button class="btn" onclick="search()">Search</button>
+                <button class="btn" onclick="randomImages()">Random Image</button>
+            </div>
+
+            <div class="PageDiv">
+                <p>Max photos per page : </p>
+                <select class="NoOfPhotos">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option selected value="30">30</option>
+                </select>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+
+    <div class="controlPanel">
+        <select class="orientation">
+            <option value="None">Orientation</option>
+            <option value="Landscape">landscape</option>
+            <option value="Portrait">Portrait</option>
+        </select>
+    </div>
+
+    <div id="allPhotos">
+
+    </div>
+    <div id="Page">
+        <!-- <div id="pageButtons"> -->
+        <!-- <button onclick="prev()" class="btn">Prev</button> -->
+        <div class="curPage">
+            <label id="FirstPage" class="PageNo">1</label>
+            <button id="Dots" class="prev" onclick="prev()">« Prev</button>
+            <label id="PageNumber">0</label>
+            <button id="Dots" class="next" onclick="next()">Next »</button>
+            <label id="LastPage" class="PageNo"></label>
+        </div>
+        <!-- <button onclick="next()" class="btn">next</button> -->
+        <!-- </div> -->
+    </div>
+    <script type="text/javascript" src="functions.js"></script>
+</body>
+
+</html>

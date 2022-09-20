@@ -4,6 +4,15 @@ Just enter the keyword running all through your mind, and you'll get a bunch of 
 <br>
 <br>
 
+# Note: 
+  1) Before using the code, make sure to make account on https://unsplash.com/developers,
+  in order to get your new access key
+  ![Capture](https://user-images.githubusercontent.com/71118230/191261019-c82dbd9d-44dc-408e-8864-f628b65864a3.PNG)
+ 
+  2) Place this access key here, without removing quotes.
+  ![imd](https://user-images.githubusercontent.com/71118230/191261303-7dc68ec5-3a7d-47b9-8dee-ea2ce92875b9.PNG)
+
+
 # Home page
 ![image](https://user-images.githubusercontent.com/71118230/191204252-d029d7ea-10ba-4bca-a9f7-7e1b99227bf0.png)
 
